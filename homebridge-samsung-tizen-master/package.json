@@ -1,0 +1,44 @@
+{
+  "name": "homebridge-samsung-tizen",
+  "version": "5.0.1",
+  "description": "Homebridge plugin for Samsung TV's with Tizen OS",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tavicu/homebridge-samsung-tizen.git"
+  },
+  "keywords": [
+    "homebridge-plugin",
+    "homebridge",
+    "homekit",
+    "samsung",
+    "remote",
+    "tizen"
+  ],
+  "author": "Octavian Ruda",
+  "license": "MIT",
+  "homepage": "https://github.com/tavicu/homebridge-samsung-tizen#readme",
+  "bugs": {
+    "url": "https://github.com/tavicu/homebridge-samsung-tizen/issues"
+  },
+  "engines": {
+    "node": ">=8.0.0",
+    "homebridge": ">=0.4.0"
+  },
+  "dependencies": {
+    "deepmerge": "^4.2.2",
+    "delay": "^5.0.0",
+    "fs-extra": "^10.0.0",
+    "is-port-reachable": "^3.0.0",
+    "node-fetch": "^2.6.1",
+    "wakeonlan": "^0.1.0",
+    "ws": "^7.0.0"
+  },
+  "funding": {
+    "type": "paypal",
+    "url": "https://www.paypal.com/donate?hosted_button_id=5QLCDRNH77Z9L"
+  }
+}
